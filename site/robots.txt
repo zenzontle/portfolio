@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /Jorge_Hernandez_Public_Resume.pdf
+
+Sitemap: https://jorgeahernandez.com/sitemap.xml

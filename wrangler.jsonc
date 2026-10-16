@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-iteration",
+  "compatibility_date": "2026-10-15",
+  "assets": {
+    "directory": "./dist",
+  },
+  "previews": {},
+  "routes": [
+    {
+      "pattern": "jorgeahernandez.com",
+      "custom_domain": true,
+    },
+    {
+      "pattern": "previews.jorgeahernandez.com",
+      "custom_domain": true,
+      "enabled": false,
+      "previews_enabled": true,
+    },
+  ],
+}

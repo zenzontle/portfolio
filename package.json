@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-iteration",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "format": "prettier --write",
+    "format:check": "prettier --check"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10",
+    "wrangler": "^4.151.1"
+  }
+}

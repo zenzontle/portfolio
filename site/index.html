@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101212" />
+    <meta
+      name="description"
+      content="Jorge Hernandez is a senior software engineer building dependable products with .NET, React, and cloud technology."
+    />
+    <title>Jorge Hernandez</title>
+    <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48" />
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="pointer-glow" aria-hidden="true"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="github" viewBox="0 0 16 16">
+        <path
+          fill="currentColor"
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"
+        />
+      </symbol>
+      <symbol id="linkedin" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.75H4.96V9.2h2.97v9.55ZM6.45 7.9a1.72 1.72 0 1 1 0-3.44 1.72 1.72 0 0 1 0 3.44Zm12.3 10.85h-2.96V14.1c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.73H9.49V9.2h2.84v1.3h.04c.39-.75 1.36-1.54 2.8-1.54 3 0 3.56 1.97 3.56 4.53v5.26Z"
+        />
+      </symbol>
+      <symbol id="arrow" viewBox="0 0 24 24">
+        <path
+          d="M6 18 18 6M6 6h12v12"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="copy" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="9" y="9" width="11" height="11" rx="2" />
+          <path d="M15 9V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4" />
+        </g>
+      </symbol>
+    </svg>
+    <div class="site-shell" id="home">
+      <header class="topbar">
+        <a class="wordmark" href="#home" aria-label="Jorge Hernandez, home"
+          ><span class="mark">jh<span>.</span></span
+          ><span>Jorge Hernandez</span></a
+        >
+        <div class="header-links">
+          <nav aria-label="Main navigation">
+            <a href="#work">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <div class="header-social" aria-label="Social profiles">
+            <a href="https://github.com/zenzontle" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+              ><svg aria-hidden="true"><use href="#github" /></svg
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/jorgehernandeztovias"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              ><svg aria-hidden="true"><use href="#linkedin" /></svg
+            ></a>
+          </div>
+        </div>
+      </header>
+      <main id="main">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>SENIOR FULL-STACK ENGINEER</p>
+            <h1 id="hero-title">Design it. Build it.<br /><span>Ship it.</span></h1>
+            <p class="intro">
+              I'm Jorge, a senior software engineer with 13+ years of experience building .NET backends, desktop
+              applications and React websites in agile teams.
+              <span>Skilled in agentic development, using Claude Code and Codex to deliver quality code.</span>
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#work">Explore my projects <span aria-hidden="true">↓</span></a>
+              <a
+                class="button button-secondary"
+                href="Jorge_Hernandez_Public_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resume <svg aria-hidden="true"><use href="#arrow" /></svg
+              ></a>
+            </div>
+            <a class="availability" href="#contact"><span class="status-dot" aria-hidden="true"></span>Open to Work</a>
+          </div>
+          <div
+            class="hero-art"
+            role="img"
+            aria-label="Connected software layers: scalable APIs, thoughtful interfaces, and dependable cloud systems"
+          >
+            <div class="art-orbit orbit-one"></div>
+            <div class="art-orbit orbit-two"></div>
+            <div class="art-orbit orbit-three"></div>
+            <div class="art-center">
+              <span class="center-symbol">&lt;/&gt;</span>
+            </div>
+            <div class="float-card api-card">
+              <span class="card-icon purple">⌘</span>
+              <div><strong>API</strong><small>Built to scale</small></div>
+              <span class="card-dot"></span>
+            </div>
+            <div class="float-card ui-card">
+              <span class="card-icon orange">✳</span>
+              <div><strong>INTERFACE</strong><small>Made for people</small></div>
+              <span class="card-dot"></span>
+            </div>
+            <div class="float-card cloud-card">
+              <span class="card-icon green">☁</span>
+              <div><strong>CLOUD</strong><small>Ready for anything</small></div>
+              <span class="card-dot"></span>
+            </div>
+            <div class="art-caption">ONE CONTINUOUS CRAFT</div>
+          </div>
+        </section>
+        <div class="stack-strip" aria-label="Technology stack">
+          <span class="eyebrow">TOOLKIT</span>
+          <ul>
+            <li>.NET</li>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>SQL</li>
+            <li>Claude Code</li>
+            <li>Codex</li>
+          </ul>
+          <span class="strip-note">And whatever the problem calls for.</span>
+        </div>
+        <section class="work section" id="work" aria-labelledby="work-title">
+          <div class="section-heading">
+            <h2 class="eyebrow" id="work-title">PROJECTS</h2>
+          </div>
+          <div class="project-list">
+            <article class="project">
+              <a
+                class="project-image-link"
+                href="https://genealogical3.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit GENEalogical3 live site"
+              >
+                <img
+                  class="project-graphic"
+                  src="images/genealogical3-1000.webp"
+                  srcset="
+                    images/genealogical3-400.webp   400w,
+                    images/genealogical3-600.webp   600w,
+                    images/genealogical3-1000.webp 1000w
+                  "
+                  sizes="(max-width: 560px) calc(100vw - 40px), (max-width: 800px) 190px, (max-width: 1024px) 220px, 250px"
+                  alt="GENEalogical3 homepage with a visual family tree"
+                  width="1000"
+                  height="640"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <div class="project-copy">
+                <span class="project-kind">FAMILY HISTORY</span>
+                <h3>
+                  <a href="https://genealogical3.vercel.app/" target="_blank" rel="noopener noreferrer"
+                    >GENEalogical3</a
+                  >
+                </h3>
+                <p>A visual family tree editor with portraits, local storage, and optional Google Drive backups.</p>
+                <ul class="tags">
+                  <li>React</li>
+                  <li>TypeScript</li>
+                  <li>XYFlow</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    class="quiet-link"
+                    href="https://genealogical3.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit GENEalogical3 live site"
+                    >Live site <svg aria-hidden="true"><use href="#arrow" /></svg
+                  ></a>
+                  <a
+                    class="quiet-link"
+                    href="https://github.com/zenzontle/genealogical3"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View GENEalogical3 on GitHub"
+                    >GitHub <svg aria-hidden="true"><use href="#github" /></svg
+                  ></a>
+                </div>
+              </div>
+              <span class="project-index" aria-label="Project 1">01</span>
+            </article>
+            <article class="project">
+              <a
+                class="project-image-link"
+                href="https://garageguardian.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Garage Guardian live site"
+              >
+                <img
+                  class="project-graphic"
+                  src="images/garageguardian-1000.webp"
+                  srcset="
+                    images/garageguardian-400.webp   400w,
+                    images/garageguardian-600.webp   600w,
+                    images/garageguardian-1000.webp 1000w
+                  "
+                  sizes="(max-width: 560px) calc(100vw - 40px), (max-width: 800px) 190px, (max-width: 1024px) 220px, 250px"
+                  alt="Garage Guardian dashboard with vehicles, maintenance reminders, and recent service"
+                  width="1000"
+                  height="640"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <div class="project-copy">
+                <span class="project-kind">VEHICLE MAINTENANCE</span>
+                <h3>
+                  <a href="https://garageguardian.vercel.app/" target="_blank" rel="noopener noreferrer"
+                    >Garage Guardian</a
+                  >
+                </h3>
+                <p>Track your vehicles, plan maintenance, and keep service history and spending in one place.</p>
+                <ul class="tags">
+                  <li>Next.js</li>
+                  <li>TypeScript</li>
+                  <li>Supabase</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    class="quiet-link"
+                    href="https://garageguardian.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit Garage Guardian live site"
+                    >Live site <svg aria-hidden="true"><use href="#arrow" /></svg
+                  ></a>
+                  <a
+                    class="quiet-link"
+                    href="https://github.com/zenzontle/garage-guardian"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Garage Guardian on GitHub"
+                    >GitHub <svg aria-hidden="true"><use href="#github" /></svg
+                  ></a>
+                </div>
+              </div>
+              <span class="project-index" aria-label="Project 2">02</span>
+            </article>
+          </div>
+        </section>
+        <section class="contact section" id="contact" aria-labelledby="contact-title">
+          <div>
+            <h2 id="contact-title">Get in contact and let's<br /><span>work together.</span></h2>
+            <p>Looking for a team to build with.</p>
+            <button class="button email-button" id="copy-email" type="button">
+              Copy e-mail
+              <svg class="email-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <use class="copy-icon" href="#copy" />
+                <path
+                  class="check-icon"
+                  d="m5 12 4 4L19 6"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <p class="email-status visually-hidden" id="email-status" role="status"></p>
+          </div>
+          <svg class="contact-art" viewBox="0 0 240 240" aria-hidden="true">
+            <path
+              d="M120 38v164M38 120h164M62 62l116 116M62 178 178 62"
+              fill="none"
+              stroke="#2c322d"
+              stroke-width="9"
+            />
+          </svg>
+        </section>
+      </main>
+      <footer>
+        <a class="footer-mark" href="#home" aria-label="Jorge Hernandez, home"
+          ><span class="mark">jh<span>.</span></span></a
+        >
+        <span>© 2026 Jorge Hernandez</span>
+        <a href="#home">Back to top <span aria-hidden="true">↑</span></a>
+      </footer>
+    </div>
+    <script src="js/effects.js" defer></script>
+    <script src="js/contact.js" type="module"></script>
+  </body>
+</html>
