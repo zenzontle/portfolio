@@ -9,12 +9,21 @@
       content="Jorge Hernandez is a senior software engineer building dependable products with .NET, React, and cloud technology."
     />
     <title>Jorge Hernandez</title>
+    <link rel="canonical" href="https://jorgeahernandez.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jorgeahernandez.com/" />
+    <meta property="og:site_name" content="Jorge Hernandez" />
+    <meta property="og:title" content="Jorge Hernandez, senior full-stack engineer" />
+    <meta
+      property="og:description"
+      content="Jorge Hernandez is a senior software engineer building dependable products with .NET, React, and cloud technology."
+    />
     <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48" />
     <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -63,7 +72,7 @@
             <a href="#work">Projects</a>
             <a href="#contact">Contact</a>
           </nav>
-          <div class="header-social" aria-label="Social profiles">
+          <div class="header-social" role="group" aria-label="Social profiles">
             <a href="https://github.com/zenzontle" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
               ><svg aria-hidden="true"><use href="#github" /></svg
             ></a>
@@ -128,9 +137,9 @@
             <div class="art-caption">ONE CONTINUOUS CRAFT</div>
           </div>
         </section>
-        <div class="stack-strip" aria-label="Technology stack">
+        <div class="stack-strip">
           <span class="eyebrow">TOOLKIT</span>
-          <ul>
+          <ul aria-label="Technology stack">
             <li>.NET</li>
             <li>React</li>
             <li>TypeScript</li>
@@ -151,7 +160,8 @@
                 href="https://genealogical3.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visit GENEalogical3 live site"
+                tabindex="-1"
+                aria-hidden="true"
               >
                 <img
                   class="project-graphic"
@@ -201,7 +211,7 @@
                   ></a>
                 </div>
               </div>
-              <span class="project-index" aria-label="Project 1">01</span>
+              <span class="project-index" aria-hidden="true">01</span>
             </article>
             <article class="project">
               <a
@@ -209,7 +219,8 @@
                 href="https://garageguardian.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visit Garage Guardian live site"
+                tabindex="-1"
+                aria-hidden="true"
               >
                 <img
                   class="project-graphic"
@@ -259,7 +270,7 @@
                   ></a>
                 </div>
               </div>
-              <span class="project-index" aria-label="Project 2">02</span>
+              <span class="project-index" aria-hidden="true">02</span>
             </article>
           </div>
         </section>
