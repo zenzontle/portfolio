@@ -136,10 +136,6 @@ nav a:hover,
 footer a:hover {
   color: var(--accent);
 }
-nav a span {
-  margin-left: 0.25rem;
-  color: var(--accent);
-}
 .hero {
   display: grid;
   grid-template-columns: 1.25fr 1fr;
@@ -494,7 +490,9 @@ ul {
 .stack-strip li:nth-child(5)::before {
   background: #86efb8;
 }
-
+.stack-strip li:nth-child(6)::before {
+  background: #ffab75;
+}
 .strip-note {
   color: var(--subtle);
   font-size: 10px;

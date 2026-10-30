@@ -25,7 +25,7 @@ Publish `dist/`. Each build replaces its contents; edit `site/` instead.
 
 Set `EMAIL_USER` and `EMAIL_DOMAIN` in your shell or hosting build settings to configure the contact address. If either is missing or blank, the build uses `hello@example.com`. `.env` files are not loaded. Rebuild after changes and preview with `npx http-server@14.1.1 dist -a 127.0.0.1 -p 8000 -c-1`; serving `site/` always uses the default address. Stop the development server before previewing, since both use port 8000.
 
-Cloudflare configuration lives in `wrangler.jsonc`. For domain changes, also update `site/sitemap.xml` and `site/robots.txt`.
+Cloudflare configuration lives in `wrangler.jsonc`, and response headers in `site/_headers`. The resume PDF is kept out of search results with an `X-Robots-Tag: noindex` header there, not with `robots.txt`, so crawlers can still read the header. For domain changes, also update the canonical and `og:url` tags in `site/index.html`, `site/sitemap.xml`, and `site/robots.txt`.
 
 ## Formatting
 
